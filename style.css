@@ -1,6 +1,26 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
 *{
     margin: 0;
     padding: 0;
+}
+img{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#img-1{
+    width: 45px;
+    height: 45px;
+}
+#dashboard-icon{
+    width: 45px;
+    height: 45px;
+    margin: 0;
 }
 .container{
     width: 100vw;
@@ -19,4 +39,49 @@
 }
 .main-content{
     background-color: #ECFCCB;
+}
+/* .sidebar-content-container{
+    display: grid;
+    grid-template-columns: .1fr .5fr;
+    grid-template-rows: 1fr repeat(10, 0.8fr);
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 15px;
+    justify-items: center;
+}
+.sidebar
+.sidebar-content-container > p{
+    color: white;
+    font-weight: bold;
+    font-size: .9rem;
+} */
+.blank-space{
+    width: 25px;
+    height: 25px;
+}
+.sidebar-images{
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.sidebar-text{
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    justify-content: start;
+    font-size: .9rem;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.pair-text1{
+    font-size: 1.5rem;
+}
+.sidebar-content-container{
+    display: flex;
+    gap: 10px;
+    margin: 15px 0 0 15px;
+}
+.sidebar-images:nth-child(3){
+    padding-top: 250px;
 }
